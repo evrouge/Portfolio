@@ -3,9 +3,14 @@
 
 $(() => {
     //omg how does this ACTUALLY work
-    //accordian expand / collapse for resume and portfolio
+    //accordian expand / collapse for resume
     $('.expand').click(function () {
-        $(this).find('.collapse').slideToggle(1000);
+        $('.collapse').slideToggle(1000);
+    })
+
+    //expand and collapse for portfolio
+    $('.expand2').click(function () {
+        $('.collapse2').slideToggle(1000);
     })
 
 })

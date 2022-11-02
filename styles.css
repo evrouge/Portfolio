@@ -11,3 +11,19 @@
 .collapse {
     display: none;
 }
+
+.collapse2 {
+    display: none;
+}
+
+h1 {
+    color: red;
+}
+
+.column-buttons {
+    text-align: center;
+}
+
+.hover-buttons {
+    text-align: center;
+}
