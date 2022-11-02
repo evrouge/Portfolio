@@ -6,14 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
-    <h1 class="name">Evin Lerouge</h1>
-    <h2 class="software-engineer">Aspiring Software Engineer</h2>
+    <div class="container">
+        <h1 id="name">Evin Lerouge</h1>
+    </div>
+    <div class="below-name">
+        <h2 id="software-engineer">Aspiring Software Engineer</h2>
+    </div>
     <!---- <nav>
         <a href=" ">Home</a>
         <a href=" ">Bio</a>
@@ -24,20 +29,30 @@
 -->
     <div class="column-buttons">
         <div class="modal-button">
-            <button id="bio">Bio</button>
+            <button id="bio" type="button">Bio</button>
         </div>
-
-        <div class="middle-button">
-            <button id="resume">Resume</button>
+        <div class="expand">
+            <h2>Resume</h2>
+            <div class="collapse">
+                <h1>This is my resume</h1>
+                <p>I have so much to say that i am going to put it right here in a p tag</p>
+            </div>
         </div>
-        <div class="bottom-button">
-            <button id="portfolio">Portfolio</button>
+        <div class="expand">
+            <h2>Portfolio</h2>
+            <div class="collapse">
+                <h1>This is my portfolio</h1>
+                <p>Coming soon!!..</p>
+            </div>
         </div>
     </div>
+    <footer>
+        <div class="hover-buttons">
+            <button class="button1" id="hover-linkedin" type="button">LinkedIn</button>
+            <button class="button2" id="hover-github" type="button">Github</button>
+        </div>
+    </footer>
 </body>
-<footer>
-    <button class="bottom-buttons" id="hover">LinkedIn</button>
-    <button class="bottom-buttons" id="hover">Github</button>
-</footer>
+
 
 </html>

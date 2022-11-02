@@ -1,14 +1,11 @@
 //Creating a web page portfolio with jQuery/JS
 
 
-
 $(() => {
-    //modal (pop-up) button for bio
+    //omg how does this ACTUALLY work
+    //accordian expand / collapse for resume and portfolio
+    $('.expand').click(function () {
+        $(this).find('.collapse').slideToggle(1000);
+    })
 
-
-    //button for resume
-    $('#middle-button').on('click',)
-
-    //button for resume
-    //$('#bottom-button').on('click', )
 })

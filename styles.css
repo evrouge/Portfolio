@@ -1,9 +1,13 @@
-.name {
+#name {
     color: pink;
     text-align:center;
 }
 
-.software-engineer {
+.below-name {
     color: cyan;
     text-align: center;
+}
+
+.collapse {
+    display: none;
 }
