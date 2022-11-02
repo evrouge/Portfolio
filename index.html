@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="app.js"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
+    <h1 class="name">Evin Lerouge</h1>
+    <h2 class="software-engineer">Aspiring Software Engineer</h2>
     <!---- <nav>
         <a href=" ">Home</a>
         <a href=" ">Bio</a>
@@ -17,12 +22,22 @@
         <a href=" ">Links</a>
     </nav>
 -->
-    <button class="bio">Bio</button>
-    <button class="resume">Resume</button>
-    <button clasas="portfolio">Portfolio</button>
+    <div class="column-buttons">
+        <div class="top-button">
+            <button id="bio">Bio</button>
+        </div>
+
+        <div class="middle-button">
+            <button id="resume">Resume</button>
+        </div>
+        <div class="bottom-button">
+            <button id="portfolio">Portfolio</button>
+        </div>
+    </div>
 </body>
 <footer>
-    <button class="linkedin">LinkedIn</button>
+    <button class="bottom-buttons" id="hover">LinkedIn</button>
+    <button class="bottom-buttons" id="hover">Github</button>
 </footer>
 
 </html>
