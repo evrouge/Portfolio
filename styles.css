@@ -48,6 +48,20 @@ h3 {
     padding: 20px;
 }
 
+.inside-popup {
+    display: none;
+    overflow: auto;
+    z-index: 1;
+}
+
+.close-button {
+    float: right;
+}
+
+.close-button:hover {
+    color: yellow;
+}
+
 .column-buttons {
     text-align: center;
 }
@@ -60,13 +74,17 @@ h3 {
 #hover-linkedin {
     color: black;
     background-color: lightpink;
-    border-radius: 20px 0 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
 }
 
 #hover-github {
     color: black;
     background-color: lightpink;
-    border-radius: 20px 0 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
 }
 
 @media (max-width: 500px) {

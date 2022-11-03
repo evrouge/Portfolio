@@ -3,7 +3,15 @@
 
 $(() => {
     // gonna try making a modal happen here
+    //open popup
+    $('#open-button').on('click', function () {
+        $('.inside-popup').show();
+    })
 
+    //close popup
+    $('#open-button').on('click', function () {
+        $('.inside-popup').hide(200);
+    })
 
 
     // omg how does this ACTUALLY work
@@ -17,20 +25,21 @@ $(() => {
         $('.collapse2').slideToggle(700);
     })
 
-    // mouseover mouseleave function for linkedin works!!
+    // mouseover mouseout function for linkedin works!!
     $('#hover-linkedin').mouseover(function () {
         $('#hover-linkedin').css('background', 'green');
     })
-    $('#hover-linkedin').mouseleave(function () {
+    $('#hover-linkedin').mouseout(function () {
         $('#hover-linkedin').css('background-color', 'pink');
     })
 
-    //mouseover mouseleave for github
+    //mouseover mouseout for github
     $('#hover-github').mouseover(function () {
         $('#hover-github').css('background-color', 'blue');
     })
     $('#hover-github').mouseout(function () {
         $('#hover-github').css('background-color', 'pink');
     })
+
 
 })
