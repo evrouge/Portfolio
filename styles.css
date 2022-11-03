@@ -1,5 +1,8 @@
+
+
 #name {
     color: pink;
+    font-family: 'dancing script', 'sans-serif';
     text-align:center;
 }
 
@@ -16,8 +19,17 @@
     display: none;
 }
 
-h1 {
-    color: red;
+img {
+    height: 300px;
+    width: 500px;
+}
+
+.div-for-photo {
+    text-align: center;
+}
+
+h3 {
+    color: aquamarine;
 }
 
 .column-buttons {
