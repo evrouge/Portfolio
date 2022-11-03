@@ -25,29 +25,31 @@
         <h2 id="software-engineer">Aspiring Software Engineer</h2>
     </div>
     <div class="div-for-photo">
-        <img src="https://i.imgur.com/yQL6Kn5.jpg">
+        <img src="https://i.imgur.com/yQL6Kn5.jpg" alt="Evin at Mount Whitney's Trail Camp">
     </div>
-    <!---- <nav>
-        <a href=" ">Home</a>
-        <a href=" ">Bio</a>
-        <a href=" ">Resume</a>
-        <a href=" ">Projects</a>
-        <a href=" ">Links</a>
-    </nav>
--->
     <div class="column-buttons">
-        <div id="popup" class="modal-button">
-            <button id="bio" type="button">Bio</button>
+
+        <!--creating the modal pop up-->
+        <div class="modal-button">
+            <div class="modal-popup">
+                <h2>Bio</h2>
+                <p>This is my bio</p>
+                <button class="close">Close</button>
+            </div>
+            <h2>popup example</h2>
+            <button class="open">Open</button>
         </div>
+        <!--end of modal pop up code-->
+
         <div class="expand">
-            <h2>Resume</h2>
+            <h2 id="resume">Resume</h2>
             <div class="collapse">
                 <h3>This is my resume</h3>
                 <p>I have so much to say that i am going to put it right here in a p tag</p>
             </div>
         </div>
         <div class="expand2">
-            <h2>Portfolio</h2>
+            <h2 id="portfolio">Portfolio</h2>
             <div class="collapse2">
                 <h3>This is my portfolio</h3>
                 <p>Coming soon!!</p>
@@ -56,8 +58,8 @@
     </div>
     <footer>
         <div class="hover-buttons">
-            <button class="button1" id="hover-linkedin" type="button">LinkedIn</button>
-            <button class="button2" id="hover-github" type="button">Github</button>
+            <button id="hover-linkedin" type="button">LinkedIn</button>
+            <button id="hover-github" type="button">Github</button>
         </div>
     </footer>
 </body>

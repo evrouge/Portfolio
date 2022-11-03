@@ -1,4 +1,19 @@
+img {
+    height: 300px;
+    width: 500px;
+}
 
+body {
+    background-color: black;
+}
+
+p {
+    color: pink;
+}
+
+h3 {
+    color: aquamarine;
+}
 
 #name {
     color: pink;
@@ -11,6 +26,14 @@
     text-align: center;
 }
 
+#resume {
+    color: cyan;
+}
+
+#portfolio {
+    color: cyan;
+}
+
 .collapse {
     display: none;
 }
@@ -19,17 +42,10 @@
     display: none;
 }
 
-img {
-    height: 300px;
-    width: 500px;
-}
-
 .div-for-photo {
     text-align: center;
-}
-
-h3 {
-    color: aquamarine;
+    border: solid aquamarine;
+    padding: 20px;
 }
 
 .column-buttons {
@@ -38,4 +54,22 @@ h3 {
 
 .hover-buttons {
     text-align: center;
+}
+
+
+#hover-linkedin {
+    color: black;
+    background-color: lightpink;
+    border-radius: 20px 0 20px 0;
+}
+
+#hover-github {
+    color: black;
+    background-color: lightpink;
+    border-radius: 20px 0 20px 0;
+}
+
+@media (max-width: 500px) {
+
+
 }
