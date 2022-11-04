@@ -5,12 +5,12 @@ $(() => {
     // gonna try making a modal happen here
     //open popup
     $('#open-button').on('click', function () {
-        $('.inside-popup').show();
+        $('#inside').css('display', 'inline-block');
     })
 
     //close popup
-    $('#open-button').on('click', function () {
-        $('.inside-popup').hide(200);
+    $('#close-button').on('click', function () {
+        $('#inside').css('display', 'none');
     })
 
 
