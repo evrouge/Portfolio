@@ -15,6 +15,7 @@ p {
 
 h3 {
     color: aquamarine;
+    font-family: 'quicksand', 'sans-serif';
 }
 
 #name {
@@ -26,16 +27,19 @@ h3 {
 .below-name {
     color: cyan;
     text-align: center;
+    font-family: 'quicksand', 'sans-serif';
 }
 
 #resume {
     color: cyan;
-    cursor:pointer;
+    cursor: pointer;
+    font-family: 'quicksand', 'sans-serif';
 }
 
 #portfolio {
     color: cyan;
     cursor: pointer;
+    font-family: 'quicksand', 'sans-serif';
 }
 
 .collapse {
@@ -56,6 +60,8 @@ h3 {
     color: green;
     margin: 10px 0;
     position: relative;
+    font-family: 'quicksand', 'sans-serif';
+    cursor: pointer;
 }
 
  #inside {
@@ -72,8 +78,8 @@ h3 {
     max-height: 100%;
     background-color: aquamarine;
     margin: auto;
-    border: 10px solid white;
-    filter: drop-shadow(40px 40px 40px pink);
+    border: 5px solid white;
+    filter: drop-shadow(50px 50px 70px pink);
 }
 
 #inside-modal-bio {
@@ -91,7 +97,6 @@ h3 {
     width: 80%;
     position: relative;
     z-index: 300;
-
 }
 
 #close-button {
@@ -110,12 +115,15 @@ h3 {
 
 .column-buttons {
     text-align: center;
+    margin: 10px;
 }
 
 .hover-buttons {
     text-align: center;
-}
+    padding: 20px;
+    padding-bottom: 40px;
 
+}
 
 #hover-linkedin {
     color: black;
@@ -123,6 +131,7 @@ h3 {
     border-radius: 10px;
     text-decoration: none;
     padding: 10px;
+    font-family: 'quicksand', 'sans-serif';
 }
 
 #hover-github {
@@ -131,9 +140,5 @@ h3 {
     border-radius: 10px;
     text-decoration: none;
     padding: 10px;
-}
-
-@media (max-width: 500px) {
-
-
+    font-family: 'quicksand', 'sans-serif';
 }

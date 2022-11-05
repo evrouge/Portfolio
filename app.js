@@ -14,7 +14,7 @@ $(() => {
     })
 
 
-    // omg how does this ACTUALLY work
+    // omg this ACTUALLY works, can't believe I did this lol
     // accordion expand / collapse for resume
     $('.expand').click(function () {
         $('.collapse').slideToggle(700);
@@ -25,7 +25,7 @@ $(() => {
         $('.collapse2').slideToggle(700);
     })
 
-    // mouseover mouseout function for linkedin works!!
+    // mouseover / mouseout function for linkedin works!!
     $('#hover-linkedin').mouseover(function () {
         $('#hover-linkedin').css('background', 'green');
     })
@@ -33,7 +33,7 @@ $(() => {
         $('#hover-linkedin').css('background-color', 'pink');
     })
 
-    //mouseover mouseout for github
+    //mouseover / mouseout for github
     $('#hover-github').mouseover(function () {
         $('#hover-github').css('background-color', 'blue');
     })
