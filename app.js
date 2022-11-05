@@ -2,30 +2,27 @@
 
 
 $(() => {
-    // gonna try making a modal happen here
-    //open popup
+    // Opening the modal
     $('#open-button').on('click', function () {
         $('#inside').css('display', 'inline-block');
     })
 
-    //close popup
+    // Closing the modal
     $('#close-button').on('click', function () {
         $('#inside').css('display', 'none');
     })
 
-
-    // omg this ACTUALLY works, can't believe I did this lol
-    // accordion expand / collapse for resume
+    // Accordion expand / collapse for resume
     $('.expand').click(function () {
         $('.collapse').slideToggle(700);
     })
 
-    // accordion expand / collapse for portfolio
+    // Accordion expand / collapse for portfolio
     $('.expand2').click(function () {
         $('.collapse2').slideToggle(700);
     })
 
-    // mouseover / mouseout function for linkedin works!!
+    // Mouseover / Mouseout hover button for linkedin works!!
     $('#hover-linkedin').mouseover(function () {
         $('#hover-linkedin').css('background', 'green');
     })
@@ -33,7 +30,7 @@ $(() => {
         $('#hover-linkedin').css('background-color', 'pink');
     })
 
-    //mouseover / mouseout for github
+    // Mouseover / Mouseout hover button for github
     $('#hover-github').mouseover(function () {
         $('#hover-github').css('background-color', 'blue');
     })
