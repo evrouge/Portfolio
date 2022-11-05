@@ -55,7 +55,8 @@ h3 {
 .div-for-photo {
     text-align: center;
     border: solid aquamarine;
-    padding: 20px;
+    padding: 30px;
+    border-radius: 50px;
 }
 
 /* --------Modal--------- */
@@ -121,7 +122,7 @@ h3 {
 
 .column-buttons {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
 }
 
 /* -----Mouseover/out event creating hover over buttons---- */
