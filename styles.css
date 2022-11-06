@@ -32,23 +32,27 @@ h3 {
 
 /* ----------Accordion----------- */
 #resume {
+    text-align: center;
     color: cyan;
     cursor: pointer;
     font-family: 'quicksand', 'sans-serif';
 }
 
 #portfolio {
+    text-align: center;
     color: cyan;
     cursor: pointer;
     font-family: 'quicksand', 'sans-serif';
 }
 
 .collapse {
+    text-align: center;
     display: none;
 }
 
 .collapse2 {
     display: none;
+    text-align: center;
 }
 /* -------End of accordion------ */
 
@@ -57,9 +61,15 @@ h3 {
     border: solid aquamarine;
     padding: 30px;
     border-radius: 50px;
+    border-style: dotted;
+    border-width: thick;
 }
 
 /* --------Modal--------- */
+.div-for-button {
+    text-align: center;
+}
+
 #open-button {
     color: black;
     margin: 10px 0;
@@ -116,7 +126,7 @@ h3 {
     text-align: center;
     margin: 5px 5px 5px 5px;
     box-shadow: 5px 5px grey;
-    cursor:pointer;
+    cursor: pointer;
 }
 /* -------------------------- */
 
