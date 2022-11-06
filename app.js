@@ -22,6 +22,11 @@ $(() => {
         $('.collapse2').slideToggle(700);
     })
 
+    // Accordion expand / collapse for contact information
+    $('.expand3').click(function () {
+        $('.collapse3').slideToggle(700);
+    })
+
     // Mouseover / Mouseout hover button for linkedin works!!
     $('#hover-linkedin').mouseover(function () {
         $('#hover-linkedin').css('background', 'green');
