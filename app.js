@@ -2,9 +2,10 @@
 
 
 $(() => {
+
     // Opening the modal
     $('#open-button').on('click', function () {
-        $('#inside').css('display', 'inline-block');
+        $('#inside').css('display', 'inline-block')
     })
 
     // Closing the modal
